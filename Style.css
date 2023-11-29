@@ -6,7 +6,7 @@ body
 background-image: url(Images/Background\ Accueil.png);
 }
 
-.Potion
+.Elements
 {
 display: flex;
 flex-direction: row;
