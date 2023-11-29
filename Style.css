@@ -1,8 +1,9 @@
 /* Section de Youssef (de 1-100) */
 
-.BackgroundAccueil
+body
 {
-background-image: url();
+    background: local;
+background-image: url(Images/Background\ Accueil.png);
 }
 
 
@@ -102,10 +103,6 @@ background-image: url();
 
 
 /* Section de Eloi (101-200) */
-
-
-
-
 
 
 
