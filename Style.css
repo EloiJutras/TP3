@@ -2,18 +2,25 @@
 
 body
 {
-    background: local;
+    background:local;
 background-image: url(Images/Background\ Accueil.png);
+background-size: 110%;
 }
 
 .Elements
 {
+margin-top: 10%;
 display: flex;
 flex-direction: row;
 justify-content: flex-end;
 align-items: flex-end;
 }
 
+
+.PotionPosition
+{
+   margin-right: 11%;
+}
 
 
 
