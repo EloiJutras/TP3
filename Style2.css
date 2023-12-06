@@ -1,7 +1,7 @@
 body
 {
     
-background-image: url(Images/Group\ 1.png);
+background-image: url(Images/Group\ 2.png);
 background-size: 70%;
 top: 0;
 left: 0;
@@ -13,9 +13,35 @@ left: 0;
     font-size:xx-large;
 }
 
+.Texte2
+{
+    color: azure;
+    font-size:xx-large;
+}
+
 .aligner
 {
     margin: auto;
   width: 50%;
   padding: 10px;
+}
+
+.centrer
+{
+  margin: auto;
+  width: 80%;
+  padding: 20px;
+}
+
+.centrer2
+{
+  margin: auto;
+  width: 90%;
+  padding: 20px;
+}
+
+.centrer3
+{
+  margin: auto;
+  width: 100%;
 }
