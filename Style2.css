@@ -45,3 +45,36 @@ left: 0;
   margin: auto;
   width: 100%;
 }
+
+.Box
+{
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  margin: auto;
+  width: 80%;
+  padding: 30px;
+}
+
+.Marge
+{
+  margin-right: 5%;
+}
+
+.bck-image
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-content: flex-start;
+  align-items: flex-start;
+  
+     padding-top: 9%;
+     width: 110%;
+     background-image: url(Images/Group\ 9.png);
+     background-size: 70%;
+     background-repeat: no-repeat;
+}
