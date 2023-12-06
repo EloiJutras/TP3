@@ -1,8 +1,7 @@
 body
 {
-    
 background-image: url(Images/Group\ 2.png);
-background-size: 70%;
+background-size: 63%;
 top: 0;
 left: 0;
 }
@@ -37,11 +36,11 @@ left: 0;
 {
   margin: auto;
   width: 90%;
-  padding: 20px;
 }
 
 .centrer3
 {
+
   margin: auto;
   width: 100%;
 }
