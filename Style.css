@@ -2,9 +2,12 @@
 
 body
 {
-    background:local;
+background:local;
 background-image: url(Images/Background\ Accueil.png);
 background-size: 110%;
+position: fixed;
+top: 0;
+left: 0;
 }
 
 .Elements
@@ -26,7 +29,6 @@ align-items: flex-end;
 {
     
 }
-
 
 
 
