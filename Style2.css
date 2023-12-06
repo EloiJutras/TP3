@@ -1,0 +1,21 @@
+body
+{
+    
+background-image: url(Images/Group\ 1.png);
+background-size: 70%;
+top: 0;
+left: 0;
+}
+
+.Texte1
+{
+    color: azure;
+    font-size:xx-large;
+}
+
+.aligner
+{
+    margin: auto;
+  width: 50%;
+  padding: 10px;
+}
