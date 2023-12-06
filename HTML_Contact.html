@@ -15,8 +15,28 @@
     <label for="nomComplet">NOM COMPLET</label>
     <input type="text" id="nomComplet" name="nomComplet" required/>
 
+    <br/><br/>
+
     <label for="âge">ÂGE</label>
-    <input type="number" id="âge" name="âge" required/>
+    <input type="number" id="âge" name="âge" required min="1" max="100"/>
+
+    <br/><br/>
+
+    <label for="connaissances">NIVEAU DE CONNAISSANCES</label>
+    <input type="range" id="connaissances" name="connaissances" required max="10" step="1"/>
+
+    <br/><br/>
+
+    <label for="cours">CHOIX DE COURS</label>
+    <select name="cours" id="cours">
+        <option value="peste médiévale 101">Peste médiévale 101</option>
+        <option value="architecture du Moyen Âge">Architecture du Moyen Âge</option>
+        
+
+
+    </select>
+
+
 
     <br/><br/><br/>
 
