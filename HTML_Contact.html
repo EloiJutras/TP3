@@ -14,45 +14,47 @@
 
     <form action="action.html" method="get">
 
-        <label for="nomComplet">NOM COMPLET</label>
-        <input class="éléments" type="text" id="nomComplet" name="nomComplet" required/>
+        <div class="container">
+            <label for="nomComplet">NOM COMPLET</label>
+            <input class="éléments" type="text" id="nomComplet" name="nomComplet" required/>
+            <div class="saut"></div>
 
-        <br/><br/>
+            
 
-        <label for="âge">ÂGE</label>
-        <input class="éléments" type="number" id="âge" name="âge" required min="1" max="100"/>
+            <label for="âge">ÂGE</label>
+            <input class="éléments number" type="number" id="âge" name="âge" required min="1" max="100"/>
 
-        <br/><br/>
+            <br/><br/>
 
-        <label for="connaissances">NIVEAU DE CONNAISSANCES</label>
-        <input class="slider" type="range" id="connaissances" name="connaissances" required max="10" step="1"/>
+            <label for="connaissances">NIVEAU DE CONNAISSANCES</label>
+            <input class="slider" type="range" id="connaissances" name="connaissances" required max="10" step="1"/>
 
-        <br/><br/>
+            <br/><br/>
+    
+            <label for="cours">CHOIX DE COURS</label>
+            <select  class="éléments" name="cours" id="cours">
+                <option value="peste médiévale 101">Peste médiévale 101</option>
+                <option value="architecture du Moyen Âge">Architecture du Moyen Âge</option>
+                <option value="la hiérarchie sociale">La hiérarchie sociale</option>
+                <option value="les oeuvres du Moyen Âge">Les oeuvres du Moyen Âge</option>
+                <option value="les guerres">Les guerres</option>
+            </select>
 
-        <label for="cours">CHOIX DE COURS</label>
-        <select  class="éléments" name="cours" id="cours">
-            <option value="peste médiévale 101">Peste médiévale 101</option>
-            <option value="architecture du Moyen Âge">Architecture du Moyen Âge</option>
-            <option value="la hiérarchie sociale">La hiérarchie sociale</option>
-            <option value="les oeuvres du Moyen Âge">Les oeuvres du Moyen Âge</option>
-            <option value="les guerres">Les guerres</option>
-        </select>
+            <br/><br/>
 
-        <br/><br/>
+            <label for="commentaires">COMMENTAIRES</label>
+            <br/> 
+            <textarea id="commentaires" name="commentaires" required max="10" step="1" rows="5" placeholder="écrivez ici..."> </textarea>
 
-        <label for="commentaires">COMMENTAIRES</label>
-        <br/> 
-        <textarea id="commentaires" name="commentaires" required max="10" step="1" rows="5" placeholder="écrivez ici..."> </textarea>
+            <br/><br/><br/>
 
-        <br/><br/><br/>
-
-        <input type="image" src="Images/Rectangle soumettre.png" alt="Envoyer" value="Envoyer"/>
+            <input type="image" src="Images/Rectangle soumettre.png" alt="Envoyer" value="Envoyer"/>
 
 
-        <button type="reset">
-            <img src="Images/Rectangle réinitialiser.png" alt="Réinitialiser" value="Réinitialiser"/>
-        </button>
-
+            <button type="reset">
+                <img src="Images/Rectangle réinitialiser.png" alt="Réinitialiser" value="Réinitialiser"/>
+            </button>
+        </div>
     </form>
 
 </body>
