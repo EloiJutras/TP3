@@ -7,8 +7,89 @@ top: 0;
 left: 0;
 }
 
-.centrer
+.centrer1
 {
   margin: auto;
   width: 100%;
+  margin-bottom: 10%;
+}
+
+.centrer2
+{
+  margin: auto;
+  width: 100%;
+}
+
+.alignement
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10%;
+}
+
+.couleur
+{
+color: azure;
+font-size:xx-large;
+}
+
+.Contour1
+{
+  text-align: center; 
+  background-color: rgba(0, 0, 0, 0.55); 
+  color: white; 
+  font-size: 40px; 
+  margin-top: 17%; 
+  padding: 25px; 
+}
+
+.Contour2
+{
+  text-align: center; 
+  background-color: rgba(0, 0, 0, 0.55); 
+  color: white; 
+  font-size: 30px; 
+  padding: 25px; 
+}
+.centre
+{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.bck-image
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 9%;
+     padding-top: 9%;
+     width: 110%;
+     background-image: url(Images/Group\ 9.png);
+     background-size: 70%;
+     background-repeat: no-repeat;
+}
+.vids
+{
+margin-left: 10%;
+}
+
+.taille
+{
+width: 103%;
+}
+
+.titre
+{
+text-align: center;
+}
+
+.marge
+{
+margin: 5%;
 }
