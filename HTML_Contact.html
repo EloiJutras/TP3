@@ -7,7 +7,14 @@
     <title>Contact</title>
 </head>
 <body>
-    
+     <!-- Header -->
+    <div class="bck-image">
+        <a href="HTML_Acceuil.html"><img src = "Images/Rectangle 3.png" alt = "Icon" title = "Profile"/></a></td>
+        <a href="HTML_Contenu.html"><img src = "Images/Group 6.png" alt = "Icon" title = "Profile"/></a>
+        <a href="HTML_A_Propos.html"><img src = "Images/Group 7.png" alt = "Icon" title = "Profile"/></a>
+        <a href="HTML_Contact.html"><img src = "Images/Group 8.png" alt = "Icon" title = "Profile"/></a>
+    </div>
+
     <h1><strong>Des questions? Écrivez-nous!</strong></h1>
 
     <img class="transitionLigne" src="Images/Transition Ligne Page Contact.png"/>
@@ -15,18 +22,22 @@
     <form action="action.html" method="get">
 
         <div class="container">
+            <!-- Nom complet -->
             <label for="nomComplet">NOM COMPLET</label>
             <input class="éléments" type="text" id="nomComplet" name="nomComplet" required placeholder="écrivez ici..."/>
             <div class="saut"></div>
 
+            <!-- Âge -->
             <label for="âge">ÂGE</label>
             <input class="éléments number" type="number" id="âge" name="âge" required min="1" max="100"/>
             <div class="saut"></div>
 
+            <!-- Niveau de connaissances -->
             <label for="connaissances">NIVEAU DE CONNAISSANCES</label>
             <input class="slider" type="range" id="connaissances" name="connaissances" required max="10" step="1"/>
             <div class="saut"></div>
     
+            <!-- Choix de cours -->
             <label for="cours">CHOIX DE COURS</label>
             <select  class="éléments" name="cours" id="cours">
                 <option value="peste médiévale 101">Peste médiévale 101</option>
@@ -37,16 +48,19 @@
             </select>
             <div class="saut"></div>
 
+            <!-- Commentaires -->
             <label for="commentaires">COMMENTAIRES</label>
             <div class="saut"></div>
             <textarea id="commentaires" placeholder="écrivez ici..." name="commentaires" required max="10" step="1" rows="5"> </textarea>
             <div class="saut"></div>
 
+            <!-- Envoyer -->
             <div class="containerEnvoyer"> 
                 <input type="image" src="Images/Rectangle soumettre.png" alt="Envoyer" value="Envoyer"/>
                 <div class="envoyer">Envoyer</div>
             </div>
            
+            <!-- Réinitialiser -->
             <div class="containerReset">
                 <button type="reset">
                     <img src="Images/Rectangle réinitialiser.png" value="Réinitialiser"/>
