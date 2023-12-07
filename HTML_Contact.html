@@ -15,22 +15,22 @@
     <form action="action.html" method="get">
 
         <label for="nomComplet">NOM COMPLET</label>
-        <input type="text" id="nomComplet" name="nomComplet" required/>
+        <input class="éléments" type="text" id="nomComplet" name="nomComplet" required/>
 
         <br/><br/>
 
         <label for="âge">ÂGE</label>
-        <input type="number" id="âge" name="âge" required min="1" max="100"/>
+        <input class="éléments" type="number" id="âge" name="âge" required min="1" max="100"/>
 
         <br/><br/>
 
         <label for="connaissances">NIVEAU DE CONNAISSANCES</label>
-        <input type="range" id="connaissances" name="connaissances" required max="10" step="1"/>
+        <input class="slider" type="range" id="connaissances" name="connaissances" required max="10" step="1"/>
 
         <br/><br/>
 
         <label for="cours">CHOIX DE COURS</label>
-        <select name="cours" id="cours">
+        <select  class="éléments" name="cours" id="cours">
             <option value="peste médiévale 101">Peste médiévale 101</option>
             <option value="architecture du Moyen Âge">Architecture du Moyen Âge</option>
             <option value="la hiérarchie sociale">La hiérarchie sociale</option>
