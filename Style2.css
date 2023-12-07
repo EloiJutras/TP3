@@ -1,3 +1,4 @@
+/* Arrière plan */
 body
 {
 background-image: url(Images/Group\ 2.png);
@@ -5,7 +6,7 @@ background-size: 63%;
 top: 0;
 left: 0;
 }
-
+/* Style */
 .Texte1
 {
     color: azure;
@@ -17,7 +18,7 @@ left: 0;
     color: azure;
     font-size:xx-large;
 }
-
+/* Balises de position */
 .aligner
 {
     margin: auto;

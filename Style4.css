@@ -1,3 +1,4 @@
+/* Arrière plan */
 body
 {
     
@@ -6,7 +7,7 @@ background-size: 100%;
 top: 0;
 left: 0;
 }
-
+/* Balises de position */
 .centrer1
 {
   margin: auto;
@@ -28,7 +29,7 @@ left: 0;
   align-items: center;
   margin-bottom: 10%;
 }
-
+/* Style */
 .couleur
 {
 color: azure;
@@ -74,6 +75,7 @@ font-size:xx-large;
      background-size: 70%;
      background-repeat: no-repeat;
 }
+/* Balises spécifiques*/
 .vids
 {
 margin-left: 10%;
