@@ -16,20 +16,16 @@
 
         <div class="container">
             <label for="nomComplet">NOM COMPLET</label>
-            <input class="éléments" type="text" id="nomComplet" name="nomComplet" required/>
+            <input class="éléments" type="text" id="nomComplet" name="nomComplet" required placeholder="écrivez ici..."/>
             <div class="saut"></div>
-
-            
 
             <label for="âge">ÂGE</label>
             <input class="éléments number" type="number" id="âge" name="âge" required min="1" max="100"/>
-
-            <br/><br/>
+            <div class="saut"></div>
 
             <label for="connaissances">NIVEAU DE CONNAISSANCES</label>
             <input class="slider" type="range" id="connaissances" name="connaissances" required max="10" step="1"/>
-
-            <br/><br/>
+            <div class="saut"></div>
     
             <label for="cours">CHOIX DE COURS</label>
             <select  class="éléments" name="cours" id="cours">
@@ -39,21 +35,28 @@
                 <option value="les oeuvres du Moyen Âge">Les oeuvres du Moyen Âge</option>
                 <option value="les guerres">Les guerres</option>
             </select>
-
-            <br/><br/>
+            <div class="saut"></div>
 
             <label for="commentaires">COMMENTAIRES</label>
-            <br/> 
-            <textarea id="commentaires" name="commentaires" required max="10" step="1" rows="5" placeholder="écrivez ici..."> </textarea>
+            <div class="saut"></div>
+            <textarea id="commentaires" placeholder="écrivez ici..." name="commentaires" required max="10" step="1" rows="5"> </textarea>
+            <div class="saut"></div>
 
-            <br/><br/><br/>
+            <div class="containerEnvoyer"> 
+                <input type="image" src="Images/Rectangle soumettre.png" alt="Envoyer" value="Envoyer"/>
+                <div class="envoyer">Envoyer</div>
+            </div>
+           
+            <div class="containerReset">
+                <button type="reset">
+                    <img src="Images/Rectangle réinitialiser.png" value="Réinitialiser"/>
+                </button>
+                <div class="reset">Réinitialiser</div>
+            </div>
 
-            <input type="image" src="Images/Rectangle soumettre.png" alt="Envoyer" value="Envoyer"/>
-
-
-            <button type="reset">
-                <img src="Images/Rectangle réinitialiser.png" alt="Réinitialiser" value="Réinitialiser"/>
-            </button>
+            <div class="charrette">
+                <img src="Images/Charette.png" alt="image charrette"/>
+            </div>
         </div>
     </form>
 
